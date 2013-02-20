@@ -1,3 +1,29 @@
+/*
+modGravatar for Node.js
+**********************************************************************
+Basic url implementation of the Gravatar API.
+
+Module function: getUrl(email, size)
+**********************************************************************
+- Email is typeof string e.g : 'demo@demo.com'
+- Size is typeof number e.g : 150
+
+Example: 
+**********************************************************************
+var gravatar = require('modGravatar');
+var url = gravatar.getUrl('email@demo.dev', 150 );
+console.log('my Gravatar url for my src attribut in my img HTML Tag : ' + url );
+
+Source:
+**********************************************************************
+github https://github.com/linuxbender/modGravatar
+
+License: 
+**********************************************************************
+Copyright (c) daniel glenn
+MIT license - http://www.opensource.org/licenses/mit-license.php
+*/
+
 //
 // module dependencie
 var crypto = require('crypto');
