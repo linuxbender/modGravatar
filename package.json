@@ -1,0 +1,13 @@
+{
+  "name": "modGravatar",
+  "description": "Basic url implementation of the Gravatar API",
+  "version": "1.0.0",
+  "dependencies": {    
+    "crypto": "*"
+  },
+  "component": {
+    "scripts": {
+      "modGravatar": "modGravatar.js"
+    }
+  }
+}

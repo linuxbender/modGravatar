@@ -1,0 +1,11 @@
+{
+  "name": "modGravatar",
+  "repo": "linuxbender/modGravatar",
+  "description": "Basic url implementation of the Gravatar API",
+  "version": "1.0.0",
+  "dependencies": {
+    "crypto": "*"
+  },
+  "scripts": ["modGravatar.js"],
+  "main": "modGravatar.js"
+}
