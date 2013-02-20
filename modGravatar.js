@@ -11,5 +11,8 @@ md5  = function(stringToHash) {
 //
 // public get url func
 exports.getUrl = function (email, size) {
+	if ( typeof size === 'undefined' ) {
+    		size = 100;
+  	}
 	return 'https://secure.gravatar.com/avatar/'+ md5(email) +'?s='+ size;	
 };
