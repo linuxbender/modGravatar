@@ -3,10 +3,15 @@ modGravatar for module Node.js
 
 Basic url implementation of the Gravatar API.
 
-modGravatar.getUrl function need a email and image size.
-getUrl(email<string>, size<number>)
+modGravatar.getUrl function need an email and image size.
 
-## Basic setup  in your Node
+email is typeof string
+size is typeof number
+
+```html
+	modGravatar.getUrl(email, size)
+```
+## Basic setup  in your Node.js app
 ```html
 	var gravatar = require('modGravatar');	
 	var url = gravatar.getUrl('email@demo.dev', 150 );
