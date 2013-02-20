@@ -31,6 +31,9 @@ var crypto = require('crypto');
 //
 // private md5 func
 md5  = function(stringToHash) {
+	if ( typeof stringToHash === 'undefined' ) {
+    		stringToHash = 'na@na.dev';
+  	}
 	return crypto.createHash('md5').update(stringToHash).digest('hex');
 };
 
